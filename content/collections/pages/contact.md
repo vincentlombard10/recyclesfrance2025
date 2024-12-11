@@ -4,7 +4,7 @@ blueprint: page
 title: Contact
 author: 5d90248b-53d3-4cbc-8ac9-066824b4aff7
 updated_by: 5d90248b-53d3-4cbc-8ac9-066824b4aff7
-updated_at: 1733773592
+updated_at: 1733926970
 template: contact/contact
 sidebar_content:
   -
@@ -34,23 +34,6 @@ sidebar_content:
       -
         type: text
         text: '10104 Romilly-sur-Seine Cedex'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        marks:
-          -
-            type: bold
-        text: 'Téléphone :'
-      -
-        type: text
-        text: ' '
-      -
-        type: hardBreak
-      -
-        type: text
-        text: '+33 (0)3 25 39 39 39'
   -
     type: paragraph
     content:
