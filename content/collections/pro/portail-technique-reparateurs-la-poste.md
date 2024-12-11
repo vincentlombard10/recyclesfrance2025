@@ -5,7 +5,7 @@ title: 'Portail Technique Réparateurs La Poste'
 displayed_title:
   - 'Portail Technique'
   - 'Réparateurs La Poste'
-url: 'https://cycleurope.netexplorer.fr'
+link: 'https://cycleurope.netexplorer.fr'
 updated_by: 5d90248b-53d3-4cbc-8ac9-066824b4aff7
 updated_at: 1733818582
 description: "L'espace technique et support dédié aux réparateurs des VAE La Poste"
