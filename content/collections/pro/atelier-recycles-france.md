@@ -7,7 +7,8 @@ displayed_title:
   - 'Re_Cycles France'
 link: 'https://atelier.re-cycles-france.fr'
 updated_by: 5d90248b-53d3-4cbc-8ac9-066824b4aff7
-updated_at: 1733818573
+updated_at: 1733911646
 description: "L'espace Garantie et Support Technique des marques Re_Cycles France"
 thumbnail: pro2.jpg
+url: 'https://atelier.cycleurope.fr'
 ---
