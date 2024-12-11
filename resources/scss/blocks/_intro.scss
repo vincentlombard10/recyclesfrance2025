@@ -1,0 +1,12 @@
+.intro {
+    text-align: center;
+    font-size: 1.35rem;
+    line-height: 1.85rem;
+    padding: 2rem 0;
+    @media (min-width: 992px) {
+        padding: 2rem 6rem;
+    }
+    @media (min-width: 1200px) {
+        padding: 2rem 12rem;
+    }
+}

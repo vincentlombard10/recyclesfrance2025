@@ -1,0 +1,21 @@
+<a class="pro-link" href="#">
+    <div class="pro-link--inner-back">
+        <img src="{{ thumbnail }}" alt="">
+    </div>
+    <div class="pro-link--inner-front arc-bottom-right">
+        <div class="title-wrapper">
+            {{ if displayed_title }}
+                {{ displayed_title }}
+                <span class="title">{{ value }}</span>
+                {{ /displayed_title }}
+            {{ else }}
+                <span class="title">{{ title }}</span>
+            {{ /if }}
+        </div>
+        <div class="description">
+            {{ if description }}
+                <small>{{ description }}</small>
+            {{ /if }}
+        </div>
+    </div>
+</a>

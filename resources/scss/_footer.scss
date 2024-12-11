@@ -1,0 +1,28 @@
+footer {
+  &.footer-brand {
+    background-color: #ffffff;
+    background-image: url('../../svg/arc-top-left.svg');
+    background-position: top left;
+    background-repeat: no-repeat;
+    padding: 2rem 0;
+  }
+  &.footer-1 {
+    background-color: #f1f5f9;
+    background-image: url('../../svg/arc-bottom-right.svg');
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    padding: 2rem 0;
+    font-size: 0.8rem;
+  }
+  &.footer-2 {
+    background-color: var(--rcf-blue);
+    padding: 2rem 0;
+    font-size: 0.8rem;
+    a {
+      color: white;
+      &:hover {
+        color: var(--rcf-yellow);
+      }
+    }
+  }
+}

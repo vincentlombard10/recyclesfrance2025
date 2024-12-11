@@ -1,0 +1,23 @@
+{{ form:contact }}
+    {{ if success }}
+        <div class="bg-green-300 text-white p-2">
+            {{ success }}
+        </div>
+    {{ /if }}
+    {{ fields }}
+    <div class="mb-3">
+        {{ if type == "text" }}
+            <input type="{{ type }}" name="{{ handle }}" for="{{ handle }}" class="form-control"
+                   placeholder="{{ display }}"/>
+            {{ if error }}
+                <small class="text-warning">{{ error }}</small>
+            {{ /if }}
+        {{ elseif type == "textarea" }}
+            <textarea name="{{ handle }}" id="{{ handle }}" class="form-control" cols="30" rows="4"></textarea>
+        {{ /if }}
+    </div>
+    {{ /fields }}
+    <input type="hidden" name="{{ honeypot ?? 'honeypot' }}">
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+{{ /form:contact }}

@@ -1,0 +1,81 @@
+title: 'Blocs Custom'
+fields:
+  -
+    handle: blocks
+    field:
+      type: replicator
+      display: Blocks
+      sets:
+        new_set_group:
+          display: 'New Set Group'
+          sets:
+            minigallery:
+              display: 'Mini Galerie'
+              icon: media-image-picture-gallery
+              fields:
+                -
+                  handle: images
+                  field:
+                    max_files: 4
+                    min_files: 1
+                    mode: grid
+                    container: assets
+                    type: assets
+                    display: Images
+            image_with_content:
+              display: 'Image et Contenu'
+              icon: text-formatting-wrap-image-margin-left
+              fields:
+                -
+                  handle: image
+                  field:
+                    max_files: 1
+                    min_files: 1
+                    mode: grid
+                    container: assets
+                    type: assets
+                    display: Image
+                -
+                  handle: content
+                  field:
+                    buttons:
+                      - h1
+                      - h2
+                      - h3
+                      - h4
+                      - h5
+                      - bold
+                      - italic
+                      - unorderedlist
+                      - orderedlist
+                      - alignleft
+                      - aligncenter
+                      - alignright
+                      - alignjustify
+                    remove_empty_nodes: false
+                    type: bard
+                    display: Contenu
+                -
+                  handle: theme
+                  field:
+                    options:
+                      -
+                        key: default
+                        value: Defaut
+                      -
+                        key: theme-blue
+                        value: 'Fond bleu / Text blanc'
+                      -
+                        key: theme-yellow
+                        value: 'Fond Jaune / Texte Bleu'
+                    type: select
+                    display: Theme
+            intro:
+              display: Introduction
+              fields:
+                -
+                  handle: content
+                  field:
+                    remove_empty_nodes: false
+                    type: bard
+                    display: Contenu

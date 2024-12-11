@@ -1,0 +1,12 @@
+.tile-brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 3/2;
+    background-color: white;
+    border-radius: 0.25rem;
+    transition: background-color .1s ease-out;
+    &:hover {
+        background-color: var(--rcf-yellow);
+    }
+}

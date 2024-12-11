@@ -1,0 +1,52 @@
+<footer class="footer-brand">
+    <div class="container">
+        <div class="row">
+            <div class="col-1">
+                <img src="/svg/recyclesfrance-blue.svg" alt="">
+            </div>
+            <div class="col-11">
+                <div id="suppliers" class="splide" aria-label="Suppliers / Partners">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            {{ collection:suppliers }}
+                                <li class="splide__slide">
+                                    <img src="{{ logo }}" alt="">
+                                </li>
+                            {{ /collection:suppliers }}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<footer class="footer-1">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-lg-4 mb-4 text-center text-md-start">
+                <h5>Menu</h5>
+                {{ partial:footer/navs/_footer }}
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4 text-center text-md-start">
+                <h5>Services Pro</h5>
+                {{ partial:footer/navs/_pro }}
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4 text-center text-md-start">
+                <h5>Sites des marques</h5>
+                {{ partial:footer/navs/_brands }}
+            </div>
+        </div>
+    </div>
+</footer>
+<footer class="footer-2">
+    <div class="container">
+       <div class="row">
+           <div class="col-xl-8 text-center text-md-start">
+               <a href="#">Mentions légales et Politique de confidentiailité</a>
+           </div>
+           <div class="col-xl-4">
+               Social networks
+           </div>
+       </div>
+    </div>
+</footer>

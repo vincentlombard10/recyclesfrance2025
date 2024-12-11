@@ -1,0 +1,12 @@
+<div class="container py-5">
+    <div class="row">
+        <h1 class="mb-3">{{ title }}</h1>
+        {{ collection:brands }}
+        <div class="col-lg-4 mb-3">
+            <a href="{{ url }}">
+        {{ partial:brands/_tile-brand }}
+            </a>
+        </div>
+        {{ /collection:brands }}
+    </div>
+</div>

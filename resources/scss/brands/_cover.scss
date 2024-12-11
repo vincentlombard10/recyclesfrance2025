@@ -1,0 +1,17 @@
+.brand-cover {
+    position: relative;
+    .logo-wrapper {
+        position: absolute;
+        bottom: -16px;
+        background-color: #ffffffea;
+        right: 50%;
+        width: 40%;
+        border-bottom: 16px solid var(--rcf-blue);
+        @media (min-width: 992px) {
+            width: 30%;
+        }
+        @media (min-width: 1200px) {
+            width: 25%;
+        }
+    }
+}

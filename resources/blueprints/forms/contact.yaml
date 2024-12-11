@@ -1,0 +1,40 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: firstname
+            field:
+              type: text
+              display: Prénom
+              validate:
+                - required
+                - 'min:2'
+          -
+            handle: lastname
+            field:
+              type: text
+              display: Nom
+              validate:
+                - required
+                - 'min:2'
+          -
+            handle: email
+            field:
+              type: text
+              display: E-mail
+              validate:
+                - required
+                - email
+          -
+            handle: company
+            field:
+              type: text
+              display: 'Raison sociale'
+          -
+            handle: message
+            field:
+              type: textarea
+              display: Message

@@ -1,0 +1,57 @@
+title: '4. Marque'
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              validate:
+                - required
+          -
+            handle: logo
+            field:
+              max_files: 1
+              container: assets
+              type: assets
+              display: Logo
+          -
+            handle: blocks
+            field: blocks.blocks
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'
+  tab_images:
+    display: Visuels
+    sections:
+      -
+        display: 'New Section'
+        fields:
+          -
+            handle: cover_mobile
+            field:
+              max_files: 1
+              container: assets
+              type: assets
+              display: 'Couverture mobile'
+              mode: grid
+          -
+            handle: cover_desktop
+            field:
+              max_files: 1
+              container: assets
+              type: assets
+              display: 'Couverture Desktop'
+              mode: grid

@@ -1,0 +1,14 @@
+title: '4. Marques'
+template: brands/brand
+layout: layout
+revisions: false
+route: 'les-marques/{slug}'
+sort_dir: asc
+date_behavior:
+  past: public
+  future: private
+preview_targets:
+  -
+    label: Entry
+    url: '{permalink}'
+    refresh: true

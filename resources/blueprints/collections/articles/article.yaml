@@ -1,0 +1,68 @@
+title: Blog
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              validate:
+                - required
+          -
+            handle: author
+            field:
+              type: users
+              display: Author
+              default: current
+              localizable: true
+              max_items: 1
+          -
+            handle: thumbnail
+            field:
+              container: assets
+              dynamic: id
+              type: assets
+              display: 'Image à la une'
+              max_files: 1
+          -
+            handle: excerpt
+            field:
+              buttons:
+                - bold
+                - italic
+                - underline
+              remove_empty_nodes: false
+              type: bard
+              display: Accroche
+          -
+            handle: content
+            field:
+              reading_time: true
+              word_count: true
+              remove_empty_nodes: false
+              container: assets
+              type: bard
+              display: Contenu
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'
+          -
+            handle: created_at
+            field:
+              time_enabled: true
+              type: date
+              display: 'Date de création'
+              validate:
+                - required

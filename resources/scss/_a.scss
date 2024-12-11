@@ -1,0 +1,7 @@
+a, a:link {
+    color: var(--rcf-blue);
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+}

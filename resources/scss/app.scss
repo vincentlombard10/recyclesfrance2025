@@ -1,0 +1,40 @@
+@use "bootstrap/dist/css/bootstrap";
+@use '@splidejs/splide/css';
+@use "fonts";
+@use "colors";
+@use "img";
+@use "list";
+@use "heading";
+@use "a";
+@use "header";
+@use "home/_featured";
+@use "home/_pro-link";
+@use "blog/_article";
+@use "blog/_sidebar";
+@use "brands/_tile-brand";
+@use "page";
+@use "footer";
+@use "form";
+@use "button";
+
+@use "blocks/_intro";
+@use "blocks/_image-with-content";
+@use "blocks/_minigallery";
+@use "brands/_cover";
+
+html, body {
+    font-family: Poppins, sans-serif;
+    background: #f8fafc;
+    line-height: 1.5rem;
+    padding: 0 0.5rem 0.5rem 0.5rem;
+    @media (min-width: 992px) {
+        padding: 0 0.75rem 0.75rem 0.75rem;
+    }
+}
+
+#main {
+    margin-top: 80px;
+    @media (min-width: 992px) {
+        margin-top: 90px;
+    }
+}

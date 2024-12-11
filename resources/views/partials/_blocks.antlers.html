@@ -1,0 +1,7 @@
+{{ blocks }}
+{{ layout = 'flex-row' }}
+{{ if index % 2 == 0 }}
+    {{ layout = 'flex-row-reverse' }}
+{{ /if }}
+{{ partial:partials/blocks/_{type} }}
+{{ /blocks }}

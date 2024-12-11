@@ -1,0 +1,16 @@
+<li class="splide__slide">
+    <div class="splide__slide--inner-back">
+        <picture>
+            <source media="(max-width: 768px)" srcset="{{ image_mobile }}" />
+            <source media="(min-width: 769px)" srcset="{{ image_desktop }}" />
+            <img src="{{ image_desktop }}" alt="Chris standing up holding his daughter Elva" />
+        </picture>
+    </div>
+    <div class="splide__slide--inner-front">
+        <span class="heading-1">{{ title }}</span>
+        <span class="heading-2">{{ subtitle }}</span>
+        {{ if link }}
+            <a href="{{ link }}" class="link" target="_blank">{{ link_label }}</a>
+        {{ /if }}
+    </div>
+</li>

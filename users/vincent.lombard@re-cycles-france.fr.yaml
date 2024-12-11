@@ -1,0 +1,31 @@
+name: 'Vincent Lombard'
+super: true
+id: 5d90248b-53d3-4cbc-8ac9-066824b4aff7
+password_hash: $2y$12$kMdmeIoku3dKkriixJam5.CnvNKg2CohCqCYq4UTK5SnWAyeRjdaK
+preferences:
+  collections:
+    articles:
+      columns:
+        - title
+        - author
+        - status
+        - thumbnail
+        - created_at
+    pro:
+      columns:
+        - title
+        - thumbnail
+        - url
+        - status
+    brands:
+      columns:
+        - title
+        - logo
+        - slug
+        - status
+    suppliers:
+      columns:
+        - title
+        - logo
+        - website
+        - status

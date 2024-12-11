@@ -1,0 +1,132 @@
+header {
+    nav.navbar {
+        padding: 0.5rem;
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 20px 25px -5px, rgba(0, 0, 0, 0.01) 0px 10px 10px -5px;
+        @media (min-width: 992px) {
+            padding: 0;
+            height: 90px;
+            align-items: flex-end;
+        }
+
+        .navbar-brand {
+            background-image: url('../../public/svg/recyclesfrance-blue.svg');
+            background-size: contain;
+            background-repeat: no-repeat;
+            text-indent: -999em;
+            width: 240px;
+            height: 64px;
+            @media (min-width: 992px) {
+                height: 80px;
+            }
+        }
+
+        .navbar-collapse {
+            @media (max-width: 991px) {
+                position: fixed;
+                top: 80px;
+                left: 0;
+                padding: 2rem;
+                width: 100%;
+                background: #ffffffea;
+                max-width: 320px;
+                height: 100vh;
+                overflow-y: auto;
+            }
+            @media (min-width: 992px) {
+                height: 90px;
+                align-items: flex-end;
+            }
+
+            &.collapsing {
+                height: 100%;
+                transition: left 0.3s ease;
+                left: -100%;
+            }
+
+            &.show {
+                left: 0;
+                transition: left 0.3s ease-in;
+            }
+
+            .navbar-nav {
+                .nav-item {
+                    background-color: transparent;
+                    padding: 0.5rem 0;
+                    @media (min-width: 992px) {
+                        padding: 0rem;
+                    }
+
+                    .nav-link {
+                        color: var(--rcf-blue);
+                        font-weight: 500;
+                        border-left: 4px solid transparent;
+                        transition: all .1s ease-out;
+                        text-decoration: none;
+                        @media (min-width: 992px) {
+                            border-left: 0;
+                            border-bottom: 4px solid transparent;
+                            padding: 1rem;
+                        }
+
+                        &.active {
+                            padding-left: 1rem;
+                            border-left: 4px solid var(--rcf-yellow);
+                            @media (min-width: 992px) {
+                                padding-left: 0.5rem;
+                                border-left: 0;
+                                border-bottom: 4px solid var(--rcf-yellow);
+                            }
+                        }
+                    }
+
+                    &:hover {
+                        .nav-link:not(.active) {
+                            @media (max-width: 991px) {
+                                padding-left: 1rem;
+                                border-left: 4px solid transparent;
+                            }
+                        }
+                    }
+                    .dropdown-menu {
+                        border-radius: 0;
+                        border: 0;
+                        width: 100%;
+                        font-size: 0.85rem;
+                        padding: 0;
+                        background: transparent;
+                        @media (min-width: 992px) {
+                            background: white;
+                        }
+                        .dropdown-item {
+                            text-decoration: none;
+                            transition: all .1s ease-out;
+                            color: var(--rcf-blue);
+                            &:hover {
+                                padding-left: 1.5rem;
+                            }
+                            &:active {
+                                background: transparent;
+                            }
+                            &.active {
+                                background: white;
+                                border-left: 4px solid var(--rcf-yellow);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .navbar-toggler {
+            border: none;
+            outline: none;
+
+            &:focus,
+            &:active,
+            &-icon:focus {
+                outline: none;
+                box-shadow: none;
+            }
+        }
+    }
+}

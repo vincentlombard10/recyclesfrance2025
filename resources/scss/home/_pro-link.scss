@@ -1,0 +1,90 @@
+.pro-link {
+    background-color: #f8fafc;
+    border-radius: 0.35rem;
+    overflow: hidden;
+    position: relative;
+    &--inner-back {
+
+    }
+    &--inner-front {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #ffffffee;
+        width: 100%;
+        height: 100%;
+        padding: 1.25rem 1.5rem;
+        transition: all .3s ease-out;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        gap: 0.25rem;
+        @media (min-width: 992px) {
+            padding: 1.5rem 1.75rem;
+        }
+        &:hover {
+            .title-wrapper {
+                .title {
+                    color: white;
+                }
+            }
+            background-color: #1e325caa;
+            background-size: 400px;
+            color: white;
+        }
+        &.arc-top-left {
+            background-image: url('../../svg/arc-top-left.svg');
+            background-position: top left;
+            background-repeat: no-repeat;
+            background-size: 300px;
+            transition: all .2s ease-out;
+            &:hover {
+                background-size: 400px;
+            }
+        }
+        &.arc-top-right {
+            background-image: url('../../svg/arc-top-right.svg');
+            background-position: top right;
+            background-repeat: no-repeat;
+            background-size: 300px;
+            transition: all .2s ease-out;
+            &:hover {
+                background-size: 400px;
+            }
+        }
+        &.arc-bottom-left {
+            background-image: url('../../svg/arc-bottom-left.svg');
+            background-position: bottom left;
+            background-repeat: no-repeat;
+            background-size: 300px;
+            transition: all .2s ease-out;
+            &:hover {
+                background-size: 400px;
+            }
+        }
+        &.arc-bottom-right {
+            background-image: url('../../svg/arc-bottom-right.svg');
+            background-position: bottom right;
+            background-repeat: no-repeat;
+            background-size: 300px;
+            transition: all .2s ease-out;
+            &:hover {
+                background-size: 400px;
+            }
+        }
+    }
+    .title-wrapper {
+        display: flex;
+        flex-direction: column;
+        .title {
+            font-size: 1.5rem;
+            line-height: 1.65rem;
+            font-weight: 500;
+            color: var(--rcf-blue);
+        }
+    }
+    .description {
+        line-height: 1rem;
+    }
+}
