@@ -23,7 +23,7 @@ tabs:
               type: text
               display: Description
           -
-            handle: url
+            handle: link
             field:
               type: link
               display: URL
