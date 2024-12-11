@@ -34,7 +34,7 @@
             color: white;
         }
         &.arc-top-left {
-            background-image: url('../../svg/arc-top-left.svg');
+            background-image: url('/svg/arc-top-left.svg');
             background-position: top left;
             background-repeat: no-repeat;
             background-size: 300px;
@@ -44,7 +44,7 @@
             }
         }
         &.arc-top-right {
-            background-image: url('../../svg/arc-top-right.svg');
+            background-image: url('/svg/arc-top-right.svg');
             background-position: top right;
             background-repeat: no-repeat;
             background-size: 300px;
@@ -54,7 +54,7 @@
             }
         }
         &.arc-bottom-left {
-            background-image: url('../../svg/arc-bottom-left.svg');
+            background-image: url('/svg/arc-bottom-left.svg');
             background-position: bottom left;
             background-repeat: no-repeat;
             background-size: 300px;
@@ -64,7 +64,7 @@
             }
         }
         &.arc-bottom-right {
-            background-image: url('../../svg/arc-bottom-right.svg');
+            background-image: url('/svg/arc-bottom-right.svg');
             background-position: bottom right;
             background-repeat: no-repeat;
             background-size: 300px;

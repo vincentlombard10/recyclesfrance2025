@@ -5,6 +5,14 @@ footer {
         background-position: top left;
         background-repeat: no-repeat;
         padding: 2rem 0;
+        .splide {
+            background: yellow;
+            min-height: 0 !important;
+        }
+        .splide__slide {
+            aspect-ratio: 3/1 !important;
+            min-height: 0 !important;
+        }
     }
 
     &.footer-1 {
