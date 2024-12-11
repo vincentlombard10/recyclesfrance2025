@@ -1,0 +1,17 @@
+{
+  "public/svg/recyclesfrance-blue.svg": {
+    "file": "assets/recyclesfrance-blue-Bmx5LAWR.svg",
+    "src": "public/svg/recyclesfrance-blue.svg"
+  },
+  "resources/js/site.js": {
+    "file": "assets/site-C-TO_uGI.js",
+    "name": "site",
+    "src": "resources/js/site.js",
+    "isEntry": true
+  },
+  "resources/scss/app.scss": {
+    "file": "assets/app-CJgHInWj.css",
+    "src": "resources/scss/app.scss",
+    "isEntry": true
+  }
+}
