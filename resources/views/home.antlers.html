@@ -1,3 +1,5 @@
 {{ partial:home/_featured }}
 {{ partial:home/_services-pro }}
+{{ if collection:count in="blog" }}
 {{ partial:home/_actualites }}
+{{ /if }}
