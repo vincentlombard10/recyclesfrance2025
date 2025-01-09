@@ -11,5 +11,5 @@ displayed_title:
 link: 'https://tandem.re-cycles-france.fr'
 description: 'La plateforme B2B des marques Re_Cycles France'
 thumbnail: pro1.jpg
-url: 'https://www.tandem-cycleurope.fr'
+url: 'https://tandem.re-cycles-france.fr'
 ---

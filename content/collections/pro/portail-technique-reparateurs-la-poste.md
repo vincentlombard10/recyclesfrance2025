@@ -10,5 +10,5 @@ updated_by: 5d90248b-53d3-4cbc-8ac9-066824b4aff7
 updated_at: 1733911667
 description: "L'espace technique et support dédié aux réparateurs des VAE La Poste"
 thumbnail: pro3.jpg
-url: 'https://cycleurope.netexplorer.fr/oauth2/login'
+url: 'https://netexplorer.re-cycles-france.fr'
 ---

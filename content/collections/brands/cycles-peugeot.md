@@ -17,7 +17,7 @@ blocks:
         content:
           -
             type: text
-            text: 'L’innovation est dans l’ADN de Peugeot Cycles depuis 1885. Cycleurope est fière de proposer sous licence une offre complète de vélos classiques et électriques qui répond aux enjeux des nouvelles mobilités. Une large collection de vélos est fabriquée à Romilly pour répondre à toutes les envies dans toutes les disciplines au travers des différents univers : Electric, Legend, City, Trekking, Mountain et Junior.'
+            text: 'L’innovation est dans l’ADN de Peugeot Cycles depuis 1885. Re_Cycles France est fière de proposer sous licence une offre complète de vélos classiques et électriques qui répond aux enjeux des nouvelles mobilités. Une large collection de vélos est fabriquée à Romilly pour répondre à toutes les envies dans toutes les disciplines au travers des différents univers : Electric, Legend, City, Trekking, Mountain et Junior.'
     type: intro
     enabled: true
   -
