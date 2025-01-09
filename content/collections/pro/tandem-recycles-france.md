@@ -8,7 +8,7 @@ updated_at: 1733911633
 displayed_title:
   - 'B2B Tandem'
   - 'Re_Cycles France'
-link: 'https://www.tandem-recyclesfrance.fr'
+link: 'https://tandem.re-cycles-france.fr'
 description: 'La plateforme B2B des marques Re_Cycles France'
 thumbnail: pro1.jpg
 url: 'https://www.tandem-cycleurope.fr'

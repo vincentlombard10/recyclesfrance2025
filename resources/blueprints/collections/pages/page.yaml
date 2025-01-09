@@ -21,11 +21,11 @@ tabs:
               localizable: true
               max_items: 1
           -
-            handle: template
+            handle: content
             field:
-              type: template
-              display: Template
-              localizable: true
+              remove_empty_nodes: false
+              type: bard
+              display: Contenu
           -
             handle: sidebar_content
             field:

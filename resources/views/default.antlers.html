@@ -1,7 +1,9 @@
 <div class="container-md py-5">
     <div class="row">
-        <h1>{{ title }}</h1>
+        <div class="col-12">
+            <h1 class="mb-3">{{ title }}</h1>
+            {{ content }}
+        </div>
     </div>
 </div>
-{{ content }}
 {{ partial:partials/_blocks }}
