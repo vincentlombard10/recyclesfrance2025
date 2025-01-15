@@ -1,0 +1,33 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: locale
+            field:
+              default: fr_FR
+              type: text
+              display: Locale
+          -
+            handle: title
+            field:
+              type: text
+              display: Titre
+          -
+            handle: description
+            field:
+              type: text
+              display: Description
+          -
+            handle: url
+            field:
+              input_type: url
+              type: text
+              display: URL
+          -
+            handle: site_name
+            field:
+              type: text
+              display: 'Nom du site'
