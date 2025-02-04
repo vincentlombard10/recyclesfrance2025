@@ -5,7 +5,7 @@ title: "L'entreprise"
 author: 5d90248b-53d3-4cbc-8ac9-066824b4aff7
 template: default
 updated_by: 5d90248b-53d3-4cbc-8ac9-066824b4aff7
-updated_at: 1733847288
+updated_at: 1738674343
 blocks:
   -
     id: m4injb4e
@@ -27,7 +27,7 @@ blocks:
         content:
           -
             type: text
-            text: 'Re_Cycles France, acteur majeur de la mobilité, conçoit et fabrique sur son site en France, à Romilly-sur-Seine, dans l’Aube (10) les vélos Gitane et Peugeot, destinés à tous les utilisateurs, les entreprises, les collectivités et les villes. Notre savoir-faire et notre expertise permettent de créer, de fabriquer des vélos et des vélos à assistance électrique pour répondre à tous les usages : urbain, loisirs, sportif. Cycleurope est votre partenaire Mobilité au quotidien et vous propose des solutions innovantes, respectueuses de l’environnement.'
+            text: 'Re_Cycles France, acteur majeur de la mobilité, conçoit et fabrique sur son site en France, à Romilly-sur-Seine, dans l’Aube (10) les vélos Gitane et Peugeot, destinés à tous les utilisateurs, les entreprises, les collectivités et les villes. Notre savoir-faire et notre expertise permettent de créer, de fabriquer des vélos et des vélos à assistance électrique pour répondre à tous les usages : urbain, loisirs, sportif. Re_Cycles France est votre partenaire mobilité au quotidien et vous propose des solutions innovantes, respectueuses de l’environnement.'
     type: image_with_content
     enabled: true
     theme: theme-blue
@@ -99,7 +99,7 @@ blocks:
         content:
           -
             type: text
-            text: 'C’est 180 personnes qui chaque jour développent et assemblent des vélos sur notre site de production d’une capacité de 400 VAE par jour à Romilly-sur-Seine (10).'
+            text: 'Ce sont plu de 150 personnes qui chaque jour développent et assemblent des vélos sur notre site de production d’une capacité de 400 VAE par jour à Romilly-sur-Seine (10).'
     type: image_with_content
     enabled: true
     theme: theme-yellow
@@ -147,7 +147,7 @@ blocks:
         content:
           -
             type: text
-            text: 'Re_Cycles France propose des solutions « sur-mesure » pour créer votre Vélo selon un cahier des charges précis et l’usage. Notre savoir-faire permet de répondre aux entreprises, collectivités, loueurs ainsi que de nombreuses villes. Cycleurope est le partenaire de LA POSTE depuis de nombreuses années, notamment pour sa flotte de VAE Cargo de plus de 20 000 vélos en service au quotidien. Notre expertise permet de fabriquer des flottes VAE, tels que Le Véligo pour Ile-de-France Mobilités.'
+            text: 'Re_Cycles France propose des solutions « sur-mesure » pour créer votre Vélo selon un cahier des charges précis et l’usage. Notre savoir-faire permet de répondre aux entreprises, collectivités, loueurs ainsi que de nombreuses villes. Re_Cycles France est le partenaire de La Poste depuis de nombreuses années, notamment pour sa flotte de VAE Cargo de plus de 20 000 vélos en service au quotidien. Notre expertise permet de fabriquer des flottes VAE, tels que Le Véligo pour Ile-de-France Mobilités.'
     type: image_with_content
     enabled: true
     theme: default
