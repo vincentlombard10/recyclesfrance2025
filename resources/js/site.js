@@ -3,7 +3,7 @@ import Splide from '@splidejs/splide';
 
 document.addEventListener('DOMContentLoaded', function () {
     if (document.querySelector('.splide') !== undefined) {
-        cosole.log(document.querySelector('.splide'))
+        console.log(document.querySelector('.splide'))
         new Splide( '.splide', {
             type    : 'loop',
             autoplay: 'playing',
