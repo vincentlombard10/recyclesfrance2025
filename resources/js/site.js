@@ -2,7 +2,7 @@ import 'bootstrap/dist/js/bootstrap.min.js'
 import Splide from '@splidejs/splide';
 
 document.addEventListener('DOMContentLoaded', function () {
-    if (document.querySelector('.splide') !== null) {
+    if (document.querySelector('.splide') != null) {
         console.log(document.querySelector('.splide'))
         new Splide( '.splide', {
             type    : 'loop',
@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }).mount();
     }
 
-    if (document.querySelector("#suppliers") !== undefined) {
+    if (document.querySelector("#suppliers") != null) {
         new Splide( '#suppliers', {
             type    : 'loop',
             autoplay: 'playing',
