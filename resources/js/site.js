@@ -1,21 +1,27 @@
 import 'bootstrap/dist/js/bootstrap.min.js'
 import Splide from '@splidejs/splide';
 
-new Splide( '.splide', {
-    type    : 'loop',
-    autoplay: 'playing',
-    padding: '8rem',
-    perPage : 1,
-    breakpoints: {
-        992: {padding: '3rem'},
-        767: {padding: 0}
+document.addEventListener('DOMContentLoaded', function () {
+    if (document.querySelector('.splide') !== null) {
+        new Splide( '.splide', {
+            type    : 'loop',
+            autoplay: 'playing',
+            padding: '8rem',
+            perPage : 1,
+            breakpoints: {
+                992: {padding: '3rem'},
+                767: {padding: 0}
+            }
+        }).mount();
     }
-}).mount();
 
-new Splide( '#suppliers', {
-    type    : 'loop',
-    autoplay: 'playing',
-    perPage : 6,
-    arrows: false,
-    pagination: false,
-}).mount();
+    if (document.querySelector("#suppliers") !== null) {
+        new Splide( '#suppliers', {
+            type    : 'loop',
+            autoplay: 'playing',
+            perPage : 6,
+            arrows: false,
+            pagination: false,
+        }).mount();
+    }
+})
