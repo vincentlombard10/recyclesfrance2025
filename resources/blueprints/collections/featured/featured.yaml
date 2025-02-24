@@ -38,6 +38,7 @@ tabs:
               width: 50
               validate:
                 - required
+              mode: grid
           -
             handle: image_desktop
             field:
@@ -46,6 +47,7 @@ tabs:
               type: assets
               display: 'Image Desktop'
               width: 50
+              mode: grid
   sidebar:
     display: Sidebar
     sections:
