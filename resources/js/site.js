@@ -7,12 +7,8 @@ new Splide( '.splide', {
     padding: '8rem',
     perPage : 1,
     breakpoints: {
-        992: {
-            padding: '3rem'
-        },
-        767: {
-            padding: 0
-        }
+        992: {padding: '3rem'},
+        767: {padding: 0}
     }
 }).mount();
 
