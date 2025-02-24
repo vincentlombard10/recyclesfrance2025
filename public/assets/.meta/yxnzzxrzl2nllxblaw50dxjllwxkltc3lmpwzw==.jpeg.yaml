@@ -1,6 +1,7 @@
-data: {  }
+data:
+  alt: 'Cadre en peinture'
 size: 65310
-last_modified: 1733846234
+last_modified: 1736927389
 width: 600
 height: 400
 mime_type: image/jpeg

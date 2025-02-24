@@ -1,8 +1,8 @@
-article, .article {
-    background-color: #ffffff;
-    padding: 2rem;
-    .thumbnail {
-        border-radius: 0.25rem;
-        overflow: hidden;
+.tile-article {
+    background: #ffffff;
+    border-radius: 0.25rem;
+    overflow: hidden;
+    &--info {
+        padding: 1.5rem 2rem;
     }
 }

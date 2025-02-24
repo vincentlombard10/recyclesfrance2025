@@ -1,6 +1,7 @@
-data: {  }
+data:
+  alt: 'Reveal Identité ReCycles France'
 size: 93139
-last_modified: 1733914253
+last_modified: 1736927389
 width: 1004
 height: 502
 mime_type: image/jpeg

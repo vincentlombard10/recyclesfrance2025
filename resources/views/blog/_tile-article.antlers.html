@@ -1,8 +1,11 @@
-<article class="article">
-    <div class="thumbnail mb-3">
+<article class="tile-article">
+    <div class="tile-article--thumbnail">
         <a href="{{ permalink }}"><img src="{{ thumbnail }}" alt=""></a>
     </div>
-    <h4><a href="{{ permalink }}">{{ title }}</a></h4>
-    <p class="excerpt">{{ excerpt }}</p>
-    <div><a href="{{ permalink }}">Lire la suite</a></div>
+    <div class="tile-article--info">
+        <h4 class="mb-3"><a href="{{ permalink }}">{{ title }}</a></h4>
+        <small>{{ created_at | format('d/m/Y') }}</small>
+        <p class="excerpt">{{ excerpt }}</p>
+        <div><a href="{{ permalink }}">Lire la suite</a></div>
+    </div>
 </article>

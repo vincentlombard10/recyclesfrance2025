@@ -29,3 +29,5 @@ preferences:
         - logo
         - website
         - status
+  locale: fr
+  favorites: {  }

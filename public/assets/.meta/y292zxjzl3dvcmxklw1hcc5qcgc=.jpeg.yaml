@@ -1,6 +1,7 @@
-data: {  }
+data:
+  alt: 'Carte du monde'
 size: 144917
-last_modified: 1733846768
+last_modified: 1736927389
 width: 1200
 height: 675
 mime_type: image/jpeg

@@ -1,6 +1,7 @@
-data: {  }
+data:
+  alt: 'Assemblage vélos ReCycles France'
 size: 329316
-last_modified: 1733846750
+last_modified: 1736927389
 width: 1200
 height: 800
 mime_type: image/jpeg
