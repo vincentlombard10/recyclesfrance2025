@@ -4,7 +4,7 @@
     </div>
     <div class="tile-article--info">
         <h4 class="mb-3"><a href="{{ permalink }}">{{ title }}</a></h4>
-        <small>{{ created_at | format('d/m/Y') }}</small>
+        <small>{{ created_at iso_format='dddd' }}</small>
         <p class="excerpt">{{ excerpt }}</p>
         <div><a href="{{ permalink }}">Lire la suite</a></div>
     </div>

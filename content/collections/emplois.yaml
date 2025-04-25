@@ -1,9 +1,11 @@
-title: '04. Marques'
-template: brands/brand
+title: '09. Emplois'
+template: jobs/single
 layout: layout
 revisions: false
-route: 'les-marques/{slug}'
-sort_dir: asc
+route: 'emplois/{slug}'
+date: true
+sort_dir: desc
+default_status: draft
 date_behavior:
   past: public
   future: private

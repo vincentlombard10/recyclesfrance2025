@@ -1,7 +1,7 @@
-title: Page
+title: '09. Emploi'
 tabs:
   main:
-    display: Main
+    display: Principal
     sections:
       -
         fields:
@@ -15,18 +15,23 @@ tabs:
           -
             handle: content
             field:
-              remove_empty_nodes: false
-              type: bard
-              display: Contenu
+              type: markdown
+              display: Content
+              localizable: true
           -
-            handle: sidebar_content
+            handle: author
             field:
-              remove_empty_nodes: false
-              type: bard
-              display: 'Contenu secondaire'
+              type: users
+              display: Author
+              default: current
+              localizable: true
+              max_items: 1
           -
-            handle: blocks
-            field: blocks.blocks
+            handle: template
+            field:
+              type: template
+              display: Template
+              localizable: true
   sidebar:
     display: Sidebar
     sections:
@@ -39,38 +44,29 @@ tabs:
               localizable: true
               validate: 'max:200'
           -
-            handle: type
+            handle: contract
             field:
               options:
                 -
-                  key: permanent_fulltime
+                  key: permanent
                   value: CDI
                 -
                   key: permanent_parttime
-                  value: 'CDI Temps partiel'
+                  value: 'CDI Temps Partiel'
                 -
-                  key: fixedterm_fulltime
+                  key: fixedterm
                   value: CDD
                 -
                   key: fixedterm_parttime
-                  value: 'CDD Temps partiel'
+                  value: 'CDD Temps Partiel'
                 -
                   key: alternation
                   value: Alternance
                 -
-                  key: apprenticeship
+                  key: apprentice
                   value: Apprentissage
                 -
-                  key: internship
+                  key: intership
                   value: Stage
               type: select
               display: 'Type de contrat'
-          -
-            handle: parent
-            field:
-              type: entries
-              collections:
-                - pages
-              max_items: 1
-              listable: false
-              localizable: true
