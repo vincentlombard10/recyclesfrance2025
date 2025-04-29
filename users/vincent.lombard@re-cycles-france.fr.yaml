@@ -31,3 +31,12 @@ preferences:
         - status
   locale: fr
   favorites: {  }
+  forms:
+    contact:
+      columns:
+        - datestamp
+        - lastname
+        - firstname
+        - company
+        - email
+        - message

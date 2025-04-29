@@ -27,6 +27,11 @@ tabs:
           -
             handle: blocks
             field: blocks.blocks
+          -
+            handle: template
+            field:
+              type: template
+              display: Template
   sidebar:
     display: Sidebar
     sections:

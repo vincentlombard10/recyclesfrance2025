@@ -4,5 +4,6 @@ blueprint: page
 title: Emplois
 author: 5d90248b-53d3-4cbc-8ac9-066824b4aff7
 updated_by: 5d90248b-53d3-4cbc-8ac9-066824b4aff7
-updated_at: 1745570198
+updated_at: 1745589951
+template: jobs/index
 ---

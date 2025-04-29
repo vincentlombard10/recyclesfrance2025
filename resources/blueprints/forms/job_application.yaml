@@ -1,0 +1,56 @@
+tabs:
+  main:
+    display: Principal
+    sections:
+      -
+        fields:
+          -
+            handle: lastname
+            field:
+              type: text
+              display: Nom
+          -
+            handle: firstname
+            field:
+              type: text
+              display: Prénom
+          -
+            handle: email
+            field:
+              type: text
+              display: 'Adresse e-mail'
+              validate:
+                - required
+                - email
+          -
+            handle: phone
+            field:
+              type: text
+              display: Portable
+          -
+            handle: postalcode
+            field:
+              type: text
+              display: 'Code postal'
+              width: 33
+          -
+            handle: city
+            field:
+              type: text
+              display: Ville
+              width: 66
+      -
+        display: 'Pièces jointes'
+        fields:
+          -
+            handle: cv
+            field:
+              max_files: 1
+              type: files
+              display: CV
+          -
+            handle: lncentive
+            field:
+              max_files: 1
+              type: files
+              display: 'Lettre de motivation'
