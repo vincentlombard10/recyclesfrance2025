@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d1a73db03e0c3576d1b6d1f5040822db",
+    "content-hash": "f57bdf8d2e24afc5dce1292b2339ef41",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -68,6 +68,58 @@
                 "source": "https://github.com/ajthinking/archetype/tree/v2.0.0"
             },
             "time": "2024-05-11T08:05:58+00:00"
+        },
+        {
+            "name": "alt-design/alt-admin-bar",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/alt-design/Alt-Admin-Bar-Addon.git",
+                "reference": "5f09fbadf0b2528cd87ed9b5c1b8a70dc45560b6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alt-design/Alt-Admin-Bar-Addon/zipball/5f09fbadf0b2528cd87ed9b5c1b8a70dc45560b6",
+                "reference": "5f09fbadf0b2528cd87ed9b5c1b8a70dc45560b6",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.1",
+                "statamic/cms": "^4.0|^5.0"
+            },
+            "require-dev": {
+                "laravel/pint": "^1.22",
+                "mockery/mockery": "^1.6",
+                "pestphp/pest": "^2.35",
+                "pestphp/pest-plugin-laravel": "^2.4"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "AltDesign\\AltAdminBar\\ServiceProvider"
+                    ]
+                },
+                "statamic": {
+                    "name": "Alt Admin Bar",
+                    "description": "Alt Admin Bar addon"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "AltDesign\\AltAdminBar\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Alt Admin Bar Addon",
+            "support": {
+                "issues": "https://github.com/alt-design/Alt-Admin-Bar-Addon/issues",
+                "source": "https://github.com/alt-design/Alt-Admin-Bar-Addon/tree/v1.0.2"
+            },
+            "time": "2025-05-06T12:46:44+00:00"
         },
         {
             "name": "brick/math",
