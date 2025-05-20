@@ -14,6 +14,7 @@
         "alt-design/alt-admin-bar": "^1.0",
         "laravel/framework": "^11.31",
         "laravel/tinker": "^2.9",
+        "spatie/statamic-responsive-images": "^5.2",
         "statamic/cms": "^5.0",
         "statamic/seo-pro": "^6.6",
         "statamic/ssg": "^3.1",
