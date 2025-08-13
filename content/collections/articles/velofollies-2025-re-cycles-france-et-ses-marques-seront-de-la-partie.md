@@ -1,7 +1,7 @@
 ---
 id: 8c001b9a-0653-4ab6-a1de-d6622906d2ff
 blueprint: article
-title: 'Velofollies 2025 : Re_Cycles France et ses marques seront de la partie'
+title: 'Velofollies 2025 : Re-Cycles France et ses marques seront de la partie'
 author: 5d90248b-53d3-4cbc-8ac9-066824b4aff7
 thumbnail: 8c001b9a-0653-4ab6-a1de-d6622906d2ff/banner_velofollies1200-600.jpg
 excerpt:
@@ -10,10 +10,10 @@ excerpt:
     content:
       -
         type: text
-        text: 'Re_Cycles France est heureux de fier de vous annoncer sa présence et celles de ses marques au salon Vélofollies 2025.'
+        text: 'Re-Cycles France est heureux de fier de vous annoncer sa présence et celles de ses marques au salon Vélofollies 2025.'
 created_at: '2025-01-15 00:00'
 updated_by: 5d90248b-53d3-4cbc-8ac9-066824b4aff7
-updated_at: 1736927116
+updated_at: 1749624604
 content:
   -
     type: paragraph
@@ -38,7 +38,7 @@ content:
         text: '17 au 19 janvier 2025'
       -
         type: text
-        text: ', retrouvez les marques de Re_Cycles France sur un stand de 140m2 à Kortrijk XPO !'
+        text: ', retrouvez les marques de Re-Cycles France sur un stand de 140m2 à Kortrijk XPO !'
   -
     type: paragraph
     content:
