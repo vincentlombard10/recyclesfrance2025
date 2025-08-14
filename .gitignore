@@ -6,10 +6,12 @@
 /public/js
 /storage/*.key
 /storage/statamic/users
+/storage/framework/*
 /storage/debugbar/*
 /storage/glide/*
 /storage/antlers-language-server/*
 /vendor
+/content
 .env
 .env.backup
 .phpunit.result.cache
