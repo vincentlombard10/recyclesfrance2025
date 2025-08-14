@@ -11,6 +11,7 @@
 /storage/glide/*
 /storage/antlers-language-server/*
 /vendor
+/content
 .env
 .env.backup
 .phpunit.result.cache
